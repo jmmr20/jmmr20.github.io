@@ -1,0 +1,33 @@
+.slider-container {
+  margin: 0 15%;
+  padding: 1%;
+  overflow-x: hidden;
+}
+
+.slider {
+  display: flex;
+  cursor: grab;
+}
+
+.item {
+  height: 24rem;
+  min-width: 30rem;
+  padding: 1rem;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+
+}
+
+.centrado{
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}

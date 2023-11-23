@@ -1,0 +1,77 @@
+p, blockquote {
+  font-size: 1rem;
+  line-height: 1.85;
+  font-family: Consolas;
+}
+
+blockquote {
+    font-style: italic;
+    color: rgb(128, 162, 192);
+    line-height: 1.5;
+    margin: 50px;
+    padding: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Segoe UI';
+}
+
+.cita {
+  text-align: right;
+  font-style: oblique;
+  padding-right: 50px;
+  font-family: 'Segoe UI';
+  color: rgb(128, 162, 192);
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  font-family: "Liberation Mono";
+}
+
+h2 {
+  color: white;
+  font-family: monospace;
+}
+
+
+.lema {
+    color: #6ab683;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+
+.pie {
+    text-align: right;
+    font-style: oblique;
+}
+
+.izquierda {
+  margin: 20px;
+  float: left;
+}
+
+.derecha {
+  margin: 20px;
+  float: right;
+}
+
+figure {
+  margin: 20px;
+  margin-bottom: 2rem;
+}
+
+figcaption {
+  text-align: center;
+  color: gray-300;
+  font-style: italic;
+  font-size: 0.75;
+  margin-top: 10px;
+}
+
+li>p {
+  color: rgb(128, 125, 136);
+  line-height: 1.5rem; 
+  padding-left: 30px;
+}
