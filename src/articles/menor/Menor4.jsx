@@ -6,7 +6,7 @@ export default function Menor4() {
       </h1>
       <figure>
         <img className="m-auto" src="/src/assets/img/men-4/1.jpg" alt="" />
-        <figcaption>Andújar, capitalidad de la montería.</figcaption>
+        <figcaption></figcaption>
       </figure>
 
       <p className="cita text-center my-8">

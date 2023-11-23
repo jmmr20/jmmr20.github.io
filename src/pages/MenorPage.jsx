@@ -1,23 +1,33 @@
 /* eslint-disable no-unused-vars */
 import Slider from "../components/Slider";
-import { imagesSlider } from "../data/datos";
-import TablaSimple from '../components/TablaSimple';
-import data  from "../data/datosTabla.json";
+import TablaSimple from "../components/TablaSimple";
+import data from "../data/datosTabla.json";
+import { datosMenor } from "../data/datosMenor";
 
-import {datosMenor} from '../data/datosMenor';
-
-const arrayTop = [datosMenor[0],datosMenor[1], datosMenor[2], datosMenor[3], datosMenor[4], datosMenor[5], datosMenor[6], datosMenor[7],datosMenor[8],datosMenor[9], datosMenor[10], datosMenor[11]];
+const arrayTop = [
+  datosMenor[0],
+  datosMenor[1],
+  datosMenor[2],
+  datosMenor[3],
+  datosMenor[4],
+  datosMenor[5],
+  datosMenor[6],
+  datosMenor[7],
+  datosMenor[8],
+  datosMenor[9],
+  datosMenor[10],
+];
 
 const columns = [
-    {
-      header: "Fecha de Publicación",
-      accessorKey: "lanzMenor",
-    },
-    {
-      header: "Caza Menor",
-      accessorKey: "titleMenor",
-    }
-  ];
+  {
+    header: "Fecha de Publicación",
+    accessorKey: "lanzMenor",
+  },
+  {
+    header: "Caza Menor",
+    accessorKey: "titleMenor",
+  },
+];
 
 export default function MenorPage() {
   return (
@@ -26,7 +36,7 @@ export default function MenorPage() {
         Caza menor
       </h1>
       <Slider images={arrayTop} />
-      <TablaSimple columns={columns} data={data} enlace="menor"/> 
+      <TablaSimple columns={columns} data={data} enlace="menor" />
     </div>
   );
 }

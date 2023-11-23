@@ -3,7 +3,7 @@ export const datosMenor = [
     id: "1",
     title: "Arte de Cuquilleros.",
     subtitle: "Arte de Cuquilleros.",
-    img: "/src/assets/img/slider/c1.jpg",
+    img: "/src/assets/img/men-1/1.jpg",
     link: "/menor/menor1",
     lanzamiento: "Abril-23",
     description:
@@ -13,7 +13,7 @@ export const datosMenor = [
     id: "2",
     title: "El mérito de ser morralero.",
     subtitle: "El mérito de ser morralero",
-    img: "/src/assets/img/slider/c2.jpg",
+    img: "/src/assets/img/men-2/1.jpg",
     link: "/menor/menor2",
     lanzamiento: "Mayo-23",
     description:
@@ -23,7 +23,7 @@ export const datosMenor = [
     id: "3",
     title: "La panancera.",
     subtitle: "La panancera",
-    img: "/src/assets/img/slider/c3.jpg",
+    img: "/src/assets/img/men-3/1.png",
     link: "/menor/menor3",
     lanzamiento: "Junio-23",
     description:
@@ -33,7 +33,7 @@ export const datosMenor = [
     id: "4",
     title: "Pollo alambrado.",
     subtitle: "Pollo alambrado",
-    img: "/src/assets/img/slider/c4.jpg",
+    img: "/src/assets/img/men-4/1.jpg",
     link: "/menor/menor4",
     lanzamiento: "Julio-23",
     description:
@@ -43,7 +43,7 @@ export const datosMenor = [
     id: "5",
     title: "La mancada.",
     subtitle: "La mancada",
-    img: "/src/assets/img/slider/c5.jpg",
+    img: "/src/assets/img/men-5/1.jpg",
     link: "/menor/menor5",
     lanzamiento: "Agosto-23",
     description:
